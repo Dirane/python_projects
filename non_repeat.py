@@ -12,5 +12,7 @@ def first_non_repeat_char(s):
     return None
 
 # Exanple usage
-print(first_non_repeat_char("leetcode")) 
-print(first_non_repeat_char("aabbcc"))
+x = input("Please enter a string: ")
+y = str(input("Please enter another string: "))
+print(first_non_repeat_char(x)) 
+print(first_non_repeat_char(y))
